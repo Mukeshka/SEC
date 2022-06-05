@@ -66,8 +66,8 @@ def hero():
     system(banner)
     print(f"{red}Contact me on telegram @smsn_knt")
     now = datetime.datetime.now()
-    First = now.replace(hour=23, minute=0, second=0, microsecond=0)
-    Firstend = now.replace(hour=23,minute=6, second=0, microsecond=0)
+    First = now.replace(hour=11, minute=0, second=0, microsecond=0)
+    Firstend = now.replace(hour=11,minute=6, second=0, microsecond=0)
     i=0
     while(y):
         now = datetime.datetime.now()
@@ -187,13 +187,13 @@ if(expirydate>today):
     Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=16, minute=25, second=0, microsecond=0)
     Secondend = now.replace(hour=17, minute=35, second=0, microsecond=0)
-    Third = now.replace(hour=15, minute=55, second=0, microsecond=0)
-    Thirdend = now.replace(hour=16, minute=35, second=0, microsecond=0)
+    Third = now.replace(hour=10, minute=55, second=0, microsecond=0)
+    Thirdend = now.replace(hour=11, minute=35, second=0, microsecond=0)
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
     if (now>Third and now<Thirdend):
-            period=320
+            period=221
             hero()
     elif(now):
             period=340
@@ -235,7 +235,7 @@ else:
     night="NAW3"
     nextday="DXS"
     banner='figlet RXCE 5.2|lolcat'
-    rava=20220501391
+    rava=20220501221
     now = datetime.datetime.now()
     Second = now.replace(hour=10, minute=55, second=0, microsecond=0)
     Secondend = now.replace(hour=14, minute=55, second=0, microsecond=0)
@@ -245,7 +245,7 @@ else:
     Finalend = now.replace(hour=22, minute=35, second=0, microsecond=0)
 
     if(now>Second and now<Secondend):
-            rava=20220501391
+            rava=20220501221
     elif(now>Third and now<Thirdend):
             rava=350
     elif(now>Final and now<Finalend):
@@ -280,9 +280,9 @@ else:
             clear()
             print("You have bought hack for 1 day")
             print(f"{purple}---------------Your play time----------------")
-            print("4rd June 2022, 02:30 PM - 03:00 PM")
-            print("4rd June 2022, 05:30 PM- 06:00 PM")
-            print("4rd June 2022, 08:30 PM- 09:00 PM")
+            print("5th June 2022, 11:00 PM - 11:30 PM")
+            print("5th June 2022, 05:30 PM- 06:00 PM")
+            print("5th June 2022, 08:30 PM- 09:00 PM")
             print("--------*ASK YOUR TIME FROM ME*--------")
             print("--------This time will not work--------")
             print("Please play on the given time, and ")
